@@ -1,3 +1,6 @@
+[![Download font_lister](https://img.shields.io/sourceforge/dt/font-lister.svg)](https://sourceforge.net/projects/font-lister/files/latest/download) 
+Python 3.11.1 | Optimised for Windows users
+
 ```
 ████████╗██╗  ██╗██╗███████╗    ██╗███████╗    ██████╗  ██████╗ ██╗     ██╗ ██████╗███████╗
 ╚══██╔══╝██║  ██║██║██╔════╝    ██║██╔════╝    ██╔══██╗██╔═══██╗██║     ██║██╔════╝██╔════╝
@@ -12,7 +15,7 @@
 
 Whether you need to reuse it for programming, painting, or any other task that requires a PDF list of your fonts from a computer, this application is helpful.
 
-
+[![Download font_lister](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/font-lister/files/latest/download)
 ![Capture d'écran 2023-03-18 022416](https://user-images.githubusercontent.com/92639080/226077059-ae75637e-5aad-4e02-944b-92f4ca3ba624.png)
 
 
