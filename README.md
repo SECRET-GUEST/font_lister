@@ -19,6 +19,18 @@ Whether you need to reuse it for programming, painting, or any other task that r
 ![Capture d'écran 2023-03-18 022416](https://user-images.githubusercontent.com/92639080/226077059-ae75637e-5aad-4e02-944b-92f4ca3ba624.png)
 
 
+
+
+# :scroll: License
+
+This repository is released under the [MIT License](LICENSE). Please see the `LICENSE` file for more information.
+
+# :question: Support & Questions
+
+If you have any questions or need support, please feel free to open an issue or join my twitter.
+
+
+
 ```
 ___ _  _ ___ ____ ____ _ ____ _    
  |  |  |  |  |  | |__/ | |__| |    
