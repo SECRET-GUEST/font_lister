@@ -161,7 +161,6 @@ on_process.show()
 
 #Loop over the font list to create images and add them to the PDF
 for i, font_name in enumerate(font_list):
-
     #Call the capturer function to create an image with the current font
     picturing_fonts(font_name)
 
@@ -171,8 +170,6 @@ for i, font_name in enumerate(font_list):
     iw, ih = img.getSize()
     #Add the image to the canvas (PDF) at the current position (x, y)
     canv_fontlist.drawImage(f"{font_name}.png", x, y - ih, iw, ih)
-    #Remove the temporary image file as it's no longer needed
-    os.remove(f"{font_name}.png")
 
     #Set the font and size for the font name label in the PDF
     canv_fontlist.setFont("Helvetica", 20)
@@ -191,6 +188,17 @@ for i, font_name in enumerate(font_list):
     on_process.setValue(i + 1)
     #Process any pending events to keep the progress dialog responsive
     app.processEvents()
+
+# Save the PDF and close the canvas
+canv_fontlist.save()
+
+# Delete the temporary image files
+for font_name in font_list:
+    try:
+        os.remove(f"{font_name}.png")
+    except FileNotFoundError:
+        pass
+
 
 
                 
