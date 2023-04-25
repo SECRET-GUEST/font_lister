@@ -58,13 +58,14 @@ python script.pyw
 
 # For microsoft users;
 
-Because this script is made by pyinstaller it could be detected as a malware.
+Because this script is made by pyinstaller it could be detected as a malware. (sorry but I will not spend money to just be approved by shitty "security" software / websites, you have the code, and here is possibilities to helps you to run it ;
 
-Here are possibilities to run the script; 
 
 ## 1. Run by simple click on APPLICATION.exe
 
-The .exe file is a portable version made for microsoft users with pyinstaller, you can download only this file and nothing else.
+The `.exe` file is a portable version created for Microsoft users with PyInstaller, allowing you to download and use this file alone, without any additional files.
+
+If there is no `.exe` file available, it means that the application is stored in a directory, as a portable version is not provided. In this case, simply locate the `APP_NAME.exe` file within the directory and launch it with a single click. You can place the folder anywhere you like and create a shortcut to the executable file for easy access.
 
 
 ## 2. Run with Python
@@ -104,7 +105,7 @@ pyinstaller YOUR_FILE.spec
 ```
 Normally, I place a blank.spec file in the "script" folder, if there isn't one let's watch over here:
 
-https://github.com/SECRET-GUEST/trieur/blob/main/Script/AKOUN_trieur_v1.0.0.spec
+https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/useful%20for%20python/pyinstaller
 
 *You can also run it directly with your os, type the following command, replacing the file paths with your own :
 
