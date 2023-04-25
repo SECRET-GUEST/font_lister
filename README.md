@@ -58,13 +58,13 @@ python script.pyw
 
 Because this script is made by PyInstaller, it could be detected as malware. (sorry, but I will not spend money to just be approved by "security" software/websites, you have the code, and here are possibilities to help you run it:
 
-## :point_right: 1. Run by simple click on `APPLICATION.exe`
+## :large_orange_diamond: 1. Run by simple click on `APPLICATION.exe`
 
 The `.exe` file is a portable version created for Microsoft users with PyInstaller, allowing you to download and use this file alone, without any additional files.
 
 If there is no `.exe` file available, it means that the application is stored in a directory, as a portable version is not provided. In this case, simply locate the `APP_NAME.exe` file within the directory and launch it with a single click. You can place the folder anywhere you like and create a shortcut to the executable file for easy access.
 
-## :point_right: 2. Run with Python
+## :large_orange_diamond: 2. Run with Python
 
 `Python script` is a directory with the original script for python 3.11.
 
@@ -74,53 +74,63 @@ If you would like to run with python **YOU WILL NEED THE IMAGE .png PLACED IN TH
 
 Also, you can add a `w` to the extension (like `script.pyw`). It means `windowed mode`, to launch the python script without the CMD, but it's still a common python file.
 
-## :point_right: 3. Compile the script by yourself
+## :large_orange_diamond: 3. Compile the script by yourself
 
-### Instructions :information_desk_person:
+### :gear: Instructions :gear: 
 
 To create your own executable from the python file, you will need to install pyinstaller and python.
 
 Here are the steps you should follow:
 
-* Download python 3.11.1
+   :small_red_triangle: Download python 3.11.1 
 
-Don't forget to add it to your path with the installer or in variables environment (so reboot your PC after the installation), here is the link: https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe
+Don't forget to add it to your path with the installer or in variables environment (so reboot your PC after the installation), here is the link: 
 
-* Open your CMD as an administrator and type the following command:
+:crossed_flags: https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe :crossed_flags:
+
+:small_red_triangle: Open your CMD as an administrator and type the following command:
 
 ```
 python -m pip install pyinstaller
 ```
 
-* You can now run it using a ruby `.spec` file by entering the following command in the project directory:
-`pyinstaller YOUR_FILE.spec`
+:small_red_triangle: You can now run it using a ruby `.spec` file by entering the following command in the project directory:
 
+```bash
+pyinstaller YOUR_FILE.spec
+```
 Normally, I place a blank.spec file in the "script" folder, if there isn't one let's watch over here:
 
-https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/useful%20for%20python/pyinstaller
+:crossed_flags: https://github.com/SECRET-GUEST/tiny-scripts/tree/ALL/useful%20for%20python/pyinstaller :crossed_flags:
 
-*You can also run it directly with your OS, type the following command, replacing the file paths with your own:
+:small_red_triangle: You can also run it directly with your OS, type the following command, replacing the file paths with your own:
 
 ```
 pyinstaller --onefile --icon="...YOUR PATH.../YOUR ICON.ico" --add-data "...YOUR PATH.../ico;ico" --noconsole test.py
 ```
-Here are the explanations of the different options:
+#### Here are the explanations of the different options:
+
+
 
 - `--onefile`: creates a single executable that includes all dependencies.
+
 - `--icon=icon.ico`: specifies the icon to use for the executable (replace icon.ico with the path to your icon file).
+
 - `--add-data "path/to/file;folder_name"`: adds external files required by the program. The path to the file and the name of the folder in which the file will be extracted should be separated by a semicolon `;`. You can add multiple files by separating them with semicolons.
 
 - `script.py`: specifies the name of your Python script.
 
 - `--noconsole`: hides the console when the executable is run.
 
+
+
 Make sure to replace the snipped parts with the names of your files and folders. Also note that the path should be specified based on the operating system you are working on.
 
 After running this command, you should have a single executable that includes all dependencies, external files, and a custom icon, and does not show the console when running.
 
-:point_down: Alternatively, you can also :point_down:
+Alternatively, you can also :
 
-## :point_right: 4. Create a batch file to run
+## :large_orange_diamond: 4. Create a batch file to run
 
 - [ ] Create a text file
 
