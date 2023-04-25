@@ -37,10 +37,8 @@ If you have any questions or need support, please feel free to open an issue or 
 ███████ ██    ██ ██  █  ██        ██    ██    ██     ██████  ██    ██ ██ ██  ██ 
 ██   ██ ██    ██ ██ ███ ██        ██    ██    ██     ██   ██ ██    ██ ██  ██ ██ 
 ██   ██  ██████   ███ ███         ██     ██████      ██   ██  ██████  ██   ████ 
-                                                                                
-                                                                                
-                                   
 ```
+
 Here's a tutorial explaining different ways to run the files:
 
 # For **MAC** & **Linux** users:
