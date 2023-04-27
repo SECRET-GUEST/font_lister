@@ -19,6 +19,15 @@ Whether you need to reuse it for programming, painting, or any other task that r
 ![Capture d'écran 2023-03-18 022416](https://user-images.githubusercontent.com/92639080/226077059-ae75637e-5aad-4e02-944b-92f4ca3ba624.png)
 
 
+BTW, if you are searching for more desk tools to opmtimize your productivity you can also check those pages :
+
+- A python tools to remove fast all comments of a page : https://github.com/SECRET-GUEST/silence
+- You want to know how many lines you wrote as a developper ? https://github.com/SECRET-GUEST/How-Many-Books-Have-I-Written-As-A-Developer
+- Handling errors to make quickly python programs with : https://github.com/SECRET-GUEST/logInfo
+- A powerful autoclicker : https://github.com/SECRET-GUEST/autoclicker
+
+And there are more in tiny script (without graphical user interface but easy to use ) : https://github.com/SECRET-GUEST/tiny-scripts
+
 
 
 # :scroll: License
